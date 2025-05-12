@@ -1,0 +1,23 @@
+name: my_app
+description: "3кт"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6 # Иконки для iOS-стиля
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/image1.jpg
+    - assets/images/image2.jpg
+    - assets/images/image3.jpg
+    
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/AceSans-Demo.otf
